@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">guardianTeen</string>
+    <string name="default_notification_channel_id">alert_channel</string>
+    <string-array name="user_types">
+        <item>parent</item>
+        <item>child</item>
+    </string-array>
+    <string name="title_activity_maps">MapsActivity</string>
+</resources>
