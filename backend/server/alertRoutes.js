@@ -26,7 +26,7 @@ router.post("/create", async (req, res) => {
           location: { latitude, longitude },
           radius: 10000, // search within 1km radius
           type: type,
-          key: "AIzaSyAYna2V-xNgIEr0_cIjlUFMHbKmASUK5NA",
+          key: "your_api_key",
         },
       });
       console.log("Google Maps API Response:", response);
